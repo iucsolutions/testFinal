@@ -1,0 +1,27 @@
+<channel
+   name="final_WebAPI"
+   guid="611668DFFCD9F671AE50945D9EDCFD4B"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="final_WebAPI-FromHTTP-kCWSCawDEdLeD5"
+      commit_id="5af58195856e2f2d29f775b79cb13b12fd7a5f36"
+      commit_comment="Import Translators: import Final"
+      mapper_url_path="iucwebdevfinal"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

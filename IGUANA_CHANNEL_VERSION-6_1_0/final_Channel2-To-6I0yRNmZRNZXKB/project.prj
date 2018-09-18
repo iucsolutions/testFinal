@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [
+        "dbUtil.lua"
+    ],
+    "LuaDependencies": [
+        "IUCConfigsfinal"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1537288028",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

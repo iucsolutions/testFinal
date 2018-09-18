@@ -1,0 +1,45 @@
+<channel
+   name="final_Channel3"
+   guid="F9D2EC541389356D8A051B12BCAD9AEC"
+   description=""
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="true">
+   <to_file
+      output_dir="${destDirGROUPNAME}/"
+      write_to_separate_file="true"
+      output_single_filename=""
+      use_prepended_info_as_filename="false"
+      output_file_id_type="1"
+      output_filename_mask="%i.txt"
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_server="ec2-184-72-202-147.compute-1.amazonaws.com"
+      ftp_username="GROUPNAME"
+      ftp_password="4Kp/jDu9n9qKHY6nAxvV/7BLHIBCCvYem9u0ZVMYhTE="
+      ftp_path="${ftpPathGROUPNAME}"
+      ftp_max_reconnect="5"
+      sftp_authentication_method="user_password"
+      use_ftp="true">
+      <dequeue_list>
+         <dequeue
+            source_name="final_Channel1"
+            dequeue_guid="A7C022F8E0B439FAED14217E3EFB633E"/>
+      </dequeue_list>
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="final_Channel3-Filter-fsf2SK3GoGGnlx"
+      translator_commit_id="5af58195856e2f2d29f775b79cb13b12fd7a5f36"
+      translator_commit_comment="Import Translators: import Final">
+   </message_filter>
+</channel>
