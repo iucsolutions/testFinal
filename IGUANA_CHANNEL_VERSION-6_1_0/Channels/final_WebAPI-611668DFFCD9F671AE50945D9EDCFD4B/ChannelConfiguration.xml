@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="final_WebAPI-FromHTTP-kCWSCawDEdLeD5"
-      commit_id="5af58195856e2f2d29f775b79cb13b12fd7a5f36"
-      commit_comment="Import Translators: import Final"
+      commit_id="19105be20e7d529d996018099817ba019ea9ca54"
+      commit_comment="Import Translators: import test channels"
       mapper_url_path="iucwebdevfinal"/>
    <message_filter
       filter_after_logging="false"
